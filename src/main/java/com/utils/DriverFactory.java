@@ -14,9 +14,9 @@ public class DriverFactory {
 		    public static void initDriver(){
 
 		    	ChromeOptions options = new ChromeOptions();
-		    	options.addArguments("--headless=new");
 		    	options.addArguments("--disable-gpu");
 		    	options.addArguments("--window-size=1920,1080");
+		    	options.addArguments("--remote-allow-origins=*");
 		        driver.set(new ChromeDriver(options));
 		        driver.get().manage().window().maximize();
 		    }

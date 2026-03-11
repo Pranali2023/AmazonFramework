@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
-        jdk 'JDK'
+        maven 'Maven3'
+        jdk 'JDK17'
     }
 
     stages {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Pranali2023/AmazonFramework.git'
+                git branch: 'main', url: 'https://github.com/Pranali2023/AmazonFramework.git'
             }
         }
 
@@ -28,7 +28,7 @@ pipeline {
 
         stage('Archive Reports') {
             steps {
-                archiveArtifacts artifacts: 'target/surefire-reports/*'
+                archiveArtifacts artifacts: 'target/surefire-reports/*', fingerprint: true
             }
         }
     }
