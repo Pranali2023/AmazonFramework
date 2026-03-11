@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T15:33:20 IST" name="Surefire suite" finished-at="2026-03-11T15:33:56 IST" duration-ms="36144">
+  <suite started-at="2026-03-11T16:44:40 IST" name="Surefire suite" finished-at="2026-03-11T16:45:39 IST" duration-ms="59100">
     <groups>
     </groups>
-    <test started-at="2026-03-11T15:33:20 IST" name="Surefire test" finished-at="2026-03-11T15:33:56 IST" duration-ms="36144">
+    <test started-at="2026-03-11T16:44:40 IST" name="Surefire test" finished-at="2026-03-11T16:45:39 IST" duration-ms="59100">
       <class name="com.tests.AmazonCartTest">
-        <test-method is-config="true" signature="cleanOldReports()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T15:33:20 IST" name="cleanOldReports" finished-at="2026-03-11T15:33:20 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="cleanOldReports()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T16:44:40 IST" name="cleanOldReports" finished-at="2026-03-11T16:44:40 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanOldReports -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T15:33:20 IST" name="setup" finished-at="2026-03-11T15:33:27 IST" duration-ms="6934" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T16:44:40 IST" name="setup" finished-at="2026-03-11T16:44:47 IST" duration-ms="6229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPrinterAddToCart()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T15:33:27 IST" name="verifyPrinterAddToCart" finished-at="2026-03-11T15:33:55 IST" duration-ms="28342" status="PASS">
+        <test-method signature="verifyPrinterAddToCart()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T16:44:47 IST" name="verifyPrinterAddToCart" finished-at="2026-03-11T16:45:39 IST" duration-ms="52067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrinterAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T15:33:55 IST" name="tearDown" finished-at="2026-03-11T15:33:56 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonCartTest@3b2da18f]" started-at="2026-03-11T16:45:39 IST" name="tearDown" finished-at="2026-03-11T16:45:39 IST" duration-ms="746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

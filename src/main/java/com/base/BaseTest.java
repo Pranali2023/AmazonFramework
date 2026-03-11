@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 
 import com.utils.ConfigReader;
-import com.utils.DriverFactory;
 import com.utils.ExtentManager;
 import com.listeners.TestListener;  // import your listener
 
