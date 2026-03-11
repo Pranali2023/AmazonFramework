@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
 	
@@ -12,7 +13,11 @@ public class DriverFactory {
 
 		    public static void initDriver(){
 
-		        driver.set(new ChromeDriver());
+		    	ChromeOptions options = new ChromeOptions();
+		    	options.addArguments("--headless=new");
+		    	options.addArguments("--disable-gpu");
+		    	options.addArguments("--window-size=1920,1080");
+		        driver.set(new ChromeDriver(options));
 		        driver.get().manage().window().maximize();
 		    }
 
